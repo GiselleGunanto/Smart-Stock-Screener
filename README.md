@@ -22,7 +22,7 @@ To pass the screen and enter the final watchlist, a stock must meet all five con
 | Criterion | Formula / Threshold | Description |
 | :--- | :--- | :--- |
 | **Momentum** | Top 30% Relative Strength | Outperforms the baseline S&P 500 index over 1 year |
-| **Uptrend** | $\text{Price}$ > $\text{SMA}_{150}$ > $\text{SMA}_{200}$ | Price is in a confirmed, multi-stage uptrend |
+| **Uptrend** | $\text{Price} > \text{SMA}_{150} > \text{SMA}_{200}$ | Price is in a confirmed, multi-stage uptrend |
 | **52-Week Low** | $\text{Price} \ge 1.30 \times \text{Low}_{52\text{W}}$ | Price is at least 30% above its 52-week low |
 | **52-Week High**| $\text{Price} \ge 0.75 \times \text{High}_{52\text{W}}$ | Price is within 25% of its 52-week high |
 | **Valuation** | $\text{P/E} < 40$ & $\text{PEG} < 2.0$ | Fundamental sanity checks via Yahoo Finance |
